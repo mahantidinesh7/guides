@@ -3,11 +3,11 @@ params:
   base_params: &base_params
   - archived:false
   - sort:created-asc
-  unassigned: &unassigned
+  unassigned: &unassignedd
   - no:assignee
   - -label:"help wanted"
   - -label:"security vulnerability"
-  open_issue: &open_issue
+  open_issue: &open_issuesx
   - is:issue
   - is:open
   open_pr: &open_pr
